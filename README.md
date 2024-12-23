@@ -77,7 +77,7 @@ Upon successful execution of the script, you will see the following message:
 **Script execution completed.**
 
 # Citation
-If you use our code please cite our paper:
+If you use our code, methodology, and/or MIP-based weighting scheme, please cite our paper:
 ```bibtex
 @misc{tertytchnyAAAI25,
       title={Rare Event Detection in Imbalanced Multi-Class Datasets Using an Optimal MIP-Based Ensemble Weighting Approach}, 

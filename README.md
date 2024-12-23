@@ -76,5 +76,19 @@ Upon successful execution of the script, you will see the following message:
 
 **Script execution completed.**
 
+# Citation
+If you use our code please cite our paper:
+```bibtex
+@misc{tertytchnyAAAI25,
+      title={Rare Event Detection in Imbalanced Multi-Class Datasets Using an Optimal MIP-Based Ensemble Weighting Approach}, 
+      author={Georgios Tertytchny and Georgios L. Stavrinides and Maria K. Michael},
+      year={2025},
+      eprint={2412.13439},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2412.13439}, 
+}
+```
+
 # Contact
 For any queries, feel free to raise an issue in this GitHub repository or contact the maintainers directly.

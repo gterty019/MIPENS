@@ -34,8 +34,7 @@ chmod +x RUN.sh
 
 # Workflow of RUN.sh
 **Step 1:** Training & Accuracy Matrix Computation
-1. Input dataset (e.g., D1_LEAKDB.csv) is trained for a set of classifiers using stratified k-folds (in our case **k=5**)
-2. The following classifiers are used: MLR, J48, JRIP, REPTree, MLP, SVM, GNB, and IBk. If desired, you can change them in script **0_1_STRATIFIED_KFOLDS.py**
+1. Input dataset (e.g., D1_LEAKDB.csv) is trained for a set of classifiers using stratified k-folds (in our case **k=5**). The following classifiers are used: MLR, J48, JRIP, REPTree, MLP, SVM, GNB, and IBk. If desired, you can change them in script **0_1_STRATIFIED_KFOLDS.py**
 3. Unnecessary lines are removed to produce the accuracy matrix for the classifiers
 
 **Step 2:** Weight Computation

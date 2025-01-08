@@ -55,7 +55,7 @@ if weights.shape != (len(models), n_classes):
     raise ValueError("Shape of weights must be (number of models, number of classes)")
 
 # Stratified K-Folds cross-validator
-skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42,test_size=0.2)
+skf = StratifiedKFold(n_splits=1, shuffle=True, random_state=42,test_size=0.2)
 
 
 

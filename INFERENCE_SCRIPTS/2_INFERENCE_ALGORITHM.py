@@ -52,7 +52,7 @@ if len(weights) != len(models):
     raise ValueError("Number of weights must match the number of models")
 
 # Stratified K-Folds cross-validator
-skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42,test_size=0.2)
+skf = StratifiedKFold(n_splits=1, shuffle=True, random_state=42,test_size=0.2)
 
 # Storage for predictions
 all_predictions = []

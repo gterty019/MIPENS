@@ -299,17 +299,20 @@ def main():
     classes = np.unique(y)
     n_classes = len(classes)
 
-    # Handle missing values (if any)
-    if pd.DataFrame(X).isnull().values.any():
-        X = pd.DataFrame(X).fillna(X.mean()).values
-
     # Convert categorical features (if any)
     categorical_columns = data.iloc[:, :-1].select_dtypes(include=["object"]).columns
     if len(categorical_columns) > 0:
+        # Handle missing categorical values (if any)
+        data[categorical_columns] = data[categorical_columns].fillna("missing")
         print(f"Categorical features found: {categorical_columns}. They will be encoded.")
+        # Encode categorical features
         X = pd.get_dummies(data.iloc[:, :-1], columns=categorical_columns).values
     else:
         X = data.iloc[:, :-1].values  # Retain original features if no categorical columns
+
+    # Handle missing numerical values (if any)
+    if pd.DataFrame(X).isnull().values.any():
+        X = pd.DataFrame(X).fillna(pd.DataFrame(X).mean()).values
 
     if X.shape[1] == 0:
         raise ValueError("No valid features found in the dataset after preprocessing.")

@@ -1,7 +1,8 @@
 # Code for "Rare Event Detection in Imbalanced Multi-Class Datasets Using an Optimal MIP-Based Ensemble Weighting Approach"
-This repository contains the code we used to conduct the experiments presented in our paper "Rare Event Detection in Imbalanced Multi-Class Datasets Using an Optimal MIP-Based Ensemble Weighting Approach" authored by Georgios Tertytchny, Georgios L. Stavrinides, and Maria K. Michael. 
-The paper will be published in the *Proceedings of the 39th AAAI Conference on Artificial Intelligence (AAAI-25)*. 
-You can access the paper on [arXiv](https://arxiv.org/abs/2412.13439).
+This repository contains the code we used to conduct the experiments presented in our paper "Rare Event Detection in Imbalanced Multi-Class Datasets Using an Optimal MIP-Based Ensemble Weighting Approach" authored by Georgios Tertytchny, Georgios L. Stavrinides, and Maria K. Michael, published in the *Proceedings of the 39th AAAI Conference on Artificial Intelligence (AAAI-25)*. 
+Our paper is available at:
+- **AAAI-25 Proceedings**: [DOI: 10.1609/aaai.v39i19.34300](https://doi.org/10.1609/aaai.v39i19.34300)
+- **arXiv** (includes supplementary material): [arXiv: 2412.13439](https://arxiv.org/abs/2412.13439)
 
 # Abstract
 To address the challenges of imbalanced multi-class datasets typically used for rare event detection in critical cyber-physical systems, we propose an optimal, efficient, and adaptable mixed integer programming (MIP) ensemble weighting scheme. Our approach leverages the diverse capabilities of the classifier ensemble on a granular per class basis, while optimizing the weights of classifier-class pairs using elastic net regularization for improved robustness and generalization. Additionally, it seamlessly and optimally selects a predefined number of classifiers from a given set. We evaluate and compare our MIP-based method against six well-established weighting schemes, using representative datasets and suitable metrics, under various ensemble sizes. The experimental results reveal that MIP outperforms all existing approaches, achieving an improvement in balanced accuracy ranging from 0.99% to 7.31%, with an overall average of 4.53% across all datasets and ensemble sizes. Furthermore, it attains an overall average increase of 4.63%, 4.60%, and 4.61% in macro-averaged precision, recall, and F1-score, respectively, while maintaining computational efficiency.
@@ -62,14 +63,17 @@ The script expects a dataset in CSV format, where the last column contains class
 # Citation
 If you use our code, methodology, and/or MIP-based weighting scheme, please cite our paper:
 ```bibtex
-@misc{tertytchnyAAAI25,
-      title={Rare Event Detection in Imbalanced Multi-Class Datasets Using an Optimal MIP-Based Ensemble Weighting Approach}, 
-      author={Georgios Tertytchny and Georgios L. Stavrinides and Maria K. Michael},
-      year={2025},
-      eprint={2412.13439},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2412.13439}, 
+@article{TertytchnyAAAI2025, 
+	title={Rare Event Detection in Imbalanced Multi-Class Datasets Using an Optimal MIP-Based Ensemble Weighting Approach},
+	volume={39},
+	url={https://ojs.aaai.org/index.php/AAAI/article/view/34300},
+   DOI={10.1609/aaai.v39i19.34300},
+	number={19},
+	journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+	author={Tertytchny, Georgios and Stavrinides, Georgios L. and Michael, Maria K.},
+	year={2025},
+	month={Apr.},
+	pages={20867--20875}
 }
 ```
 

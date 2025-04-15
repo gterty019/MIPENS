@@ -68,7 +68,7 @@ If you use our code, methodology, and/or MIP-based weighting scheme, please cite
 	title={Rare Event Detection in Imbalanced Multi-Class Datasets Using an Optimal MIP-Based Ensemble Weighting Approach},
 	volume={39},
 	url={https://ojs.aaai.org/index.php/AAAI/article/view/34300},
-   DOI={10.1609/aaai.v39i19.34300},
+	DOI={10.1609/aaai.v39i19.34300},
 	number={19},
 	journal={Proceedings of the AAAI Conference on Artificial Intelligence},
 	author={Tertytchny, Georgios and Stavrinides, Georgios L. and Michael, Maria K.},

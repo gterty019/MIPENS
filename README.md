@@ -64,7 +64,7 @@ The script expects a dataset in CSV format, where the last column contains class
 # Citation
 If you use our code, methodology, and/or MIP-based weighting scheme, please cite our paper:
 ```bibtex
-@article{TertytchnyAAAI2025, 
+@article{TertytchnyAAAI2025,
 	title={Rare Event Detection in Imbalanced Multi-Class Datasets Using an Optimal MIP-Based Ensemble Weighting Approach},
 	volume={39},
 	url={https://ojs.aaai.org/index.php/AAAI/article/view/34300},

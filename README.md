@@ -1,5 +1,6 @@
 # Code for "Rare Event Detection in Imbalanced Multi-Class Datasets Using an Optimal MIP-Based Ensemble Weighting Approach"
 This repository contains the code we used to conduct the experiments presented in our paper "Rare Event Detection in Imbalanced Multi-Class Datasets Using an Optimal MIP-Based Ensemble Weighting Approach" authored by Georgios Tertytchny, Georgios L. Stavrinides, and Maria K. Michael, published in the *Proceedings of the 39th AAAI Conference on Artificial Intelligence (AAAI-25)*. 
+
 Our paper is available at:
 - **AAAI-25 Proceedings**: [DOI: 10.1609/aaai.v39i19.34300](https://doi.org/10.1609/aaai.v39i19.34300)
 - **arXiv** (includes supplementary material): [arXiv: 2412.13439](https://arxiv.org/abs/2412.13439)
